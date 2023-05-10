@@ -9,7 +9,6 @@ import ru.statisticsapi.dtos.FiltrationInfoDTO;
 import ru.statisticsapi.entities.Event;
 import ru.statisticsapi.services.EventService;
 
-import java.util.Date;
 import java.util.List;
 
 @RestController

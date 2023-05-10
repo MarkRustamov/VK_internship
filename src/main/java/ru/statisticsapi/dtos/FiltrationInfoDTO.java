@@ -10,7 +10,7 @@ public class FiltrationInfoDTO {
 
     private Date to;
 
-    public FiltrationInfoDTO(String eventName, Date from, Date to) throws ParseException {
+    public FiltrationInfoDTO(String eventName, Date from, Date to) {
         this.eventName = eventName;
         this.from = from;
         this.to = to;
@@ -36,7 +36,7 @@ public class FiltrationInfoDTO {
         return to;
     }
 
-    public void setTo(Date to) throws ParseException {
+    public void setTo(Date to) {
         this.to = to;
     }
 }
